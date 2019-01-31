@@ -1,6 +1,5 @@
-En la entrega se incluyen cuatro archivos:
+In this repository you can find three different files:
 
-1. Tweepy Stream Listener: En este archivo se ha implementado la escucha de tweets, limitada al número de tweets o al tiempo que el usuario desee, guardando cada tweet escuchado en formato JSON en un archivo .txt.
-2. Tweepy Read JSON from TXT: En este archivo se ha implementado la lectura de tweets, en formato JSON, desde un archivo .txt para la construcción de un dataframe, su posterior agregado y representación de algún gráfico significativo.
-3. Tweepy Search To Dataframe: En este archivo se ha implementado la búsqueda de tweets y construcción de un dataframe de manera simultánea.
-4. streaming.txt: En este bloc de notas se encuentran los tweets, en formato JSON, descargados durante el tiempo de escucha.
+1. Tweepy Stream Listener: in this file the tweet listening is implemented, limited by number of tweets listened or time of listening desired, saving each tweet in JSON format into a .txt file.
+2. Tweepy Read JSON from TXT: in this second file it's implemented the tweet reading (in JSON format) from .txt file to build a dataframe, aggregate it and plot some significant graphic about the tweets loaded.
+3. Tweepy Search To Dataframe: In this files, I've also implemented the tweet searching and the building of a dataframe simultaneously instead of doing it in real time like in the Tweepy Stream Listener.
